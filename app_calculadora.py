@@ -21,7 +21,10 @@ col1 = {
     'b-7' :'7',
     'b-4' :'4',
     'b-1' :'1',
-    'b-dec' : html.Div(id="output-2", title='O último valor que digitar é o número de casas decimais.',children='')
+    'b-dec' : html.Div(id="output-2", 
+                       title='O último valor que digitar é o número de casas decimais.', 
+                       style={'width': '100px', 'height': '50px'},
+                       children='')
 }
 
 col2 = {
